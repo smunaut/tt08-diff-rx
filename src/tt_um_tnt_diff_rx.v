@@ -14,6 +14,11 @@ module tt_um_tnt_diff_rx (
     input  wire       rst_n     // reset_n - low to reset
 );
 
+	wire ibias_data;
+	wire ibias_clk;
+
+	wire rx_data;
+	wire rx_clk;
 
 	bias_gen bias_gen_I (
 		.VGND     (VGND),
