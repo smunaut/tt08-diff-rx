@@ -42,7 +42,7 @@ module tt_um_tnt_diff_rx (
 		.ibias    (ibias_data)
 	);
 
-	digital digital_I (
+	digital_tt08 digital_I (
 		.VGND     (VGND),
 		.VPWR     (VDPWR),
 		.clk_in   (rx_clk),
